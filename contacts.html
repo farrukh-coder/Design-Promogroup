@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Контакты</title>
+
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/main-media.css" />
+  </head>
+  <body>
+    <div class="mobile-nav">
+      <div class="pattern-nav">
+        <div class="first-row">
+          <a href="index.html">
+            <img src="img/logo-mobile.png" alt="" />
+          </a>
+          <button class="exit-nav">x</button>
+        </div>
+        <div class="mobile-nav__a">
+          <a href="projects.html">Проекты</a>
+          <a href="about.html">О компании</a>
+          <a href="contacts.html">Контакты</a>
+        </div>
+        <div class="mobile-social">
+          <a href="#">Behance</a>
+          <a href="#">Instagram</a>
+          <a href="#">Facebook</a>
+        </div>
+        <div class="mobile-text">
+          <p>8 800 500 63 40</p>
+          <p>©promogroup 2008-2021</p>
+          <img src="img/ecovadis-mobile.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Начало header -->
+    <header class="main-page">
+      <div class="logo">
+        <a href="index.html">
+          <img src="img/logo.png" alt="" />
+        </a>
+      </div>
+      <nav class="pc-nav">
+        <a href="projects.html">Проекты</a>
+        <a href="about.html">О компании</a>
+        <a href="contacts.html">Контакты</a>
+      </nav>
+      <button class="nav__button">
+        <img src="img/patterns/menu.png" alt="" />
+      </button>
+    </header>
+    <!-- Конец header -->
+
+    <main class="contacts-page">
+      <div class="office">
+        <h3>Офис</h3>
+        <span>Телефон</span>
+        <p>8 800 500 6340</p>
+
+        <span>E-mail</span>
+        <p>order@promogroup.ru</p>
+
+        <span>Часы работы офиса</span>
+        <p>пн-пт с 9:30 до 18:30</p>
+
+        <span>Адрес</span>
+        <p>111524, Москва, ул. Электродная, д.2, стр.34</p>
+
+        <a href="#" class="map">Посмотреть схему проезда</a>
+
+        <a href="#" class="requisites">Скачать реквизиты компании</a>
+      </div>
+
+      <div class="warehouse">
+        <h3>Склад</h3>
+        <span>Часы работы склада:</span>
+        <p>пн-пт с 9:00 до 18:00</p>
+
+        <span>Адрес</span>
+        <p>Москва, ул. Ткацкая 5, стр.4</p>
+
+        <a href="#" class="map">Посмотреть схему проезда</a>
+      </div>
+
+      <section class="contacts-form">
+        <h3>Оставить заявку</h3>
+        <form method="POST" action="send.php" onsubmit="return validate_form ( );">
+          <input type="text" placeholder="Имя" class="contacts-input" name="name" data-validate />
+          <input type="text" placeholder="E-mail" class="contacts-input" name="email" data-validate />
+          <input type="text" placeholder="Телефон" class="contacts-input" name="phone" data-validate />
+          <input type="text" placeholder="Расскажите о своём проекте" class="contacts-input" name="message" data-validate />
+          <span class="form-confirmation contacts-confirmation">
+            Заполняя форму, вы соглашаетесь на
+            <span class="highlight_blue">обработку персональных данных</span>
+          </span>
+          <button class="contacts-form__btn">Отправить запрос</button>
+        </form>
+      </section>
+    </main>
+
+    <script src="js/menu.js"></script>
+  </body>
+</html>

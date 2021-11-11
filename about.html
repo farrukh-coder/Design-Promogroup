@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>О компании</title>
+
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/main-media.css" />
+  </head>
+
+  <body>
+    <div class="mobile-nav">
+      <div class="pattern-nav">
+        <div class="first-row">
+          <a href="index.html">
+            <img src="img/logo-mobile.png" alt="" />
+          </a>
+          <button class="exit-nav">x</button>
+        </div>
+        <div class="mobile-nav__a">
+          <a href="projects.html">Проекты</a>
+          <a href="about.html">О компании</a>
+          <a href="contacts.html">Контакты</a>
+        </div>
+        <div class="mobile-social">
+          <a href="#">Behance</a>
+          <a href="#">Instagram</a>
+          <a href="#">Facebook</a>
+        </div>
+        <div class="mobile-text">
+          <p>8 800 500 63 40</p>
+          <p>©promogroup 2008-2021</p>
+          <img src="img/ecovadis-mobile.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Начало header -->
+    <header class="main-page">
+      <div class="logo">
+        <a href="index.html">
+          <img src="img/logo.png" alt="" />
+        </a>
+      </div>
+      <nav class="pc-nav">
+        <a href="projects.html">Проекты</a>
+        <a href="about.html">О компании</a>
+        <a href="contacts.html">Контакты</a>
+      </nav>
+      <button class="nav__button">
+        <img src="img/patterns/menu.png" alt="" />
+      </button>
+    </header>
+    <!-- Конец header -->
+
+    <main class="about-main">
+      <section class="about-heading">
+        <h2>МЫ РАБОТАЕМ КАК ЧАСТЬ ВАШЕЙ КОМАНДЫ</h2>
+        <p>
+          Мы верим, что: <br />«Искренний сервис – это когда делаешь не только
+          то, что должен, но еще и то, чего можешь и не делать»
+        </p>
+        <a href="#">Скачать презентацию</a>
+      </section>
+      <section class="statistics">
+        <div>
+          <p>10</p>
+          <span>Лет на рынке</span>
+        </div>
+        <div>
+          <p>+100</p>
+          <span>Клиентов</span>
+        </div>
+        <div>
+          <p>6000</p>
+          <span>Проектов</span>
+        </div>
+        <div>
+          <p>30</p>
+          <span>Сотрудников</span>
+        </div>
+        <div>
+          <p>300 <sup>м2</sup></p>
+          <span class="ml-40">Складов</span>
+        </div>
+      </section>
+
+      <section class="team">
+        <h2>Команда</h2>
+        <div class="team-grid">
+          <img src="img/team/team-1.png" alt="" class="team-img__1" />
+  
+          <img src="img/team/team-2.png" alt=""  class="team-img__2"/>
+  
+          <img src="img/team/team-3.png" alt=""  class="team-img__3"/>
+  
+          <img src="img/team/team-4.png" alt=""  class="team-img__4"/>
+  
+          <img src="img/team/team-5.png" alt=""  class="team-img__5"/>
+  
+          <img src="img/team/team-6.png" alt=""  class="team-img__6"/>
+  
+          <img src="img/team/team-7.png" alt=""  class="team-img__7"/>
+
+          <img src="img/team/team-8.png" alt=""  class="team-img__8"/>
+
+          <img src="img/team/team-9.png" alt=""  class="team-img__9"/>
+
+          <img src="img/team/team-10.png" alt=""  class="team-img__10"/>
+
+          <img src="img/team/team-11.png" alt=""  class="team-img__11"/>
+
+          <img src="img/team/team-12.png" alt=""  class="team-img__12"/>
+        </div>
+      </section>
+
+      <section class="projects-form about-form">
+          <p class="form-heading about-form__p">
+            Сделать будущее бренда &nbsp; ̶  &nbsp; успешным
+          </p>
+          <form method="POST" action="send.php" onsubmit="return validate_form ( );">
+            <input type="text" placeholder="Имя" class="projects-input about-input" name="name" data-validate >
+            <input type="text" placeholder="E-mail" class="projects-input about-input" name="email" data-validate />
+            <input type="text" placeholder="Телефон" class="projects-input about-input" name="phone" data-validate />
+            <input type="text" placeholder="Расскажите о своём проекте" class="projects-input about-input" name="message" data-validate />
+            <span class="form-confirmation">
+              Заполняя форму, вы соглашаетесь на <span class="highlight_blue">обработку персональных данных</span>
+            </span>
+
+            <button class="projects-form__btn">Отправить запрос</button>
+          </form>
+          
+        </section>
+
+    </main>
+
+    <footer class="main-page">
+      <div class="footer__copy">
+        <p>©promogroup 2008-2021</p>
+        <img src="img/ecovadis.png" alt="Ecovadis" />
+      </div>
+      <nav class="social">
+        <a href="#">Behance</a>
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+      </nav>
+      <a href="#" class="phone">8 800 500 63 40</a>
+    </footer>
+
+    <script src="js/menu.js"></script>
+  </body>
+</html>
